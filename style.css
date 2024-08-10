@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(0, 0, 0);
+    font-size: medium;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 20px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.continer{
+    padding: 20px;
+}
+.notesbox{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 25%;
+    border-radius: 20px;                            
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    vertical-align: top;
+}
+.del-button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+}
+.addnotes-button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 55px;
+    padding: 5px 20px;
+    color: white;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    bottom: 0px;
+    display: none;
+    opacity: 0.8;
+    left: 0px;
+    right: 0px;
+}
+
+.popupbox{
+    background-color: rgb(152, 152, 152);
+    width: 500px;
+    height:150px;
+    position: absolute;
+    left: 30%;
+    right: 20%;
+    top: 150px;
+    display: none;
+    padding: 30px 20px;
+    border-radius: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.title-box{
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.notes-box{
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.add-button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+}
+
+.cancel-button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notes</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>NOTES</h1>
+    </div>
+    
+   
+    <div class="container"> 
+        <div class="notesbox">
+            <h1>title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolor excepturi est numquam neque nesciunt. Et sint facilis deserunt minima, laboriosam ratione dolor, non ullam voluptate odit vitae nobis possimus.</p>
+            <button class="del-button" onclick="deletenotes(event)" >Delete</button>
+        </div>
+    </div>
+    <button class="addnotes-button">+</button>
+    <div class="overlay"></div>
+    <div class="popupbox">
+        <form class="form">
+            <input class="title-box" type="text" placeholder="title" >
+            <textarea class="notes-box" rows="2"  placeholder="notes"></textarea>
+        </form>
+        <button class="add-button">Add</button>
+        <button class="cancel-button">Cancel</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
